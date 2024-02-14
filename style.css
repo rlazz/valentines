@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cedarville Cursive', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #FFB6C1;
+    /* background-size: cover;  */
+    overflow: hidden;
+    position: absolute;
+}
+
+.wrapper {
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 3em;
+    color: #FFB6C1;
+}
+
+h3 {
+    font-size: 1em;
+    color: #E75480;
+}
+
+p, small {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+small {
+    font-size: 6px;
+}
+.btn-group {
+    min-width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+ button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #E75480;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+ }
+
+ button:nth-child(1){
+    margin-left: -200px;
+    background: #E75480;
+ }
+
+ button:nth-child(2){
+    margin-right: -200px;
+    color: #E75480;
+    background: #fff;
+ }
+
+ img {
+    width: auto;
+    height: 60%;
+ }
